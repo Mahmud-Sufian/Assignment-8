@@ -1,0 +1,35 @@
+.cart-container li{
+    list-style-type: none; 
+    background-color: rgb(192, 248, 239);
+    padding: 5px;
+    margin: 5px auto;
+    width: 50%;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.price-box{
+    background-color:  rgb(192, 248, 239);
+    padding: 5px;
+    border-radius: 10px; 
+}
+.btn-box{
+    background-color:  rgb(192, 248, 239);
+    padding: 5px;
+    border-radius: 10px;
+}
+.btn-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn-box button{ 
+    border: none;
+    padding: 7px 25px;
+    border-radius: 10px;
+    background-color: rgb(122, 255, 226); 
+}
+.btn-box button:hover{
+    background-color: rgb(75, 243, 207);
+    font-weight: 500; 
+}

@@ -1,0 +1,18 @@
+.product-container{  
+    background-color: rgb(255, 221, 235);
+    text-align: center;
+    padding: 5px;
+}
+.product-container img{
+    width: 200px;
+}
+.product-btn{
+    border: 1px solid pink;
+    padding: 7px 25px;
+    border-radius: 10px;
+    background-color: rgb(252, 200, 228);
+}
+.product-btn:hover{
+    background-color: rgb(248, 161, 208);
+    font-weight: 500;
+}

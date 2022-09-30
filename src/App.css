@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.what{ 
+  color: rgb(30, 175, 62);
+}
+.you{
+  color: rgb(100, 218, 212);
+}
+.want{
+  color: rgb(243, 118, 139);
+}

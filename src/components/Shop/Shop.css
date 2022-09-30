@@ -1,0 +1,37 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    padding: 20px;
+    gap: 20px; 
+    position: relative;
+    overflow: hidden;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.cart{
+    background-color:  rgb(221, 255, 242);
+}
+
+
+@media only screen and (max-width: 960px){
+
+    .shop-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        gap: 20px; 
+        overflow: hidden;
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+}
+
+
+ 
